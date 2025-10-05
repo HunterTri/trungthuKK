@@ -180,10 +180,13 @@
         </div>
     </div>
 
-    <audio id="bg-music" autoplay loop muted>
-        <!-- Thay file nhạc ở đây -->
-        <source src="a.mp3" type="audio/mpeg">
-    </audio>
+    <button onclick="document.getElementById('bg-music').play()">
+  ▶ Nghe nhạc
+</button>
+
+<audio id="bg-music" loop>
+  <source src="a.mp3" type="audio/mpeg">
+</audio>
 
     <script>
         const canvas = document.getElementById('starfield');
@@ -355,6 +358,7 @@
 
 
 </html>
+
 
 
 
